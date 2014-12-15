@@ -1,0 +1,16 @@
+This project is a proof of concept.
+
+It's an integration of Yii (http://yiiframework.com) and PHPExcel (http://phpexcel.codeplex.com/releases/view/96183) using the YiiExcel Extension (http://www.yiiframework.com/extension/yiiexcel/)
+
+To use, setup this application as you would a regular Yii application.
+
+1. Copy this application folder to a location accessible from your web server.
+
+2. Edit the index.php file in the root of the application and set the path to your Yii Framework. (This application was generated using Yii 1.1.15 but it should work with any or the 1.1 Yii branches)
+
+3. Navigate to http://path-to-yii-excel-demo/
+
+4. Click on the menu item "Generate Excel Report" and a sample excel file would be downloaded
+
+5. The code that generates the Excel file is in APP_ROOT/protected/controllers/SiteController.php (public function actionExcel() {} )
+
